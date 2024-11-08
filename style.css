@@ -74,3 +74,37 @@ button:hover {
     font-family: 'Arial', sans-serif;
     text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
 } */
+@media (max-width: 600px) {
+  .calculator {
+    padding: 15px;
+  }
+
+  #display {
+    padding: 10px;
+    font-size: 1.2rem;
+  }
+
+  button {
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  .bottom-right-corner {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .calculator {
+    width: 95%;
+  }
+
+  #display {
+    font-size: 1rem;
+  }
+
+  button {
+    padding: 8px;
+    font-size: 0.9rem;
+  }
+}
